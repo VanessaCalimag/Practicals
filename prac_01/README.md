@@ -103,7 +103,7 @@ PyCharm.
 3.  Next, let's add our first source code file to the project.  
     **Right-click** on the project name and select  
     **New > Python File**  
-    ![New file](../images/01image2.png)**
+    ![New file](../images/01image2.png)
 
 4.  This opens a window where you can define the name of the file - call
     it **hello.py** and hit the **OK** button. Always give your files
@@ -344,7 +344,7 @@ a classmate or your tutor.
 ## Shop Calculator
 
 A shop requires a small program that would allow them to quickly work
-out total price for a number of items, each with different prices.
+out the total price for a number of items, each with different prices.
 
 The program allows the user to enter the number of items and the price
 of each different item.  
@@ -441,8 +441,8 @@ Inputs should be:
             else if choice == <second option>
                 do second task
             ...
-                else if choice == <n-th option>
-                    do n-th task
+            else if choice == <n-th option>
+                do n-th task
             else
                 display invalid input error message
             display menu

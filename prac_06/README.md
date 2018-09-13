@@ -135,7 +135,7 @@ properly.
 Now create a new list that contains these three existing
 ProgrammingLanguage objects.
 
-![Pencil Icon](../images/06image1.png)
+![Pencil Icon](../images/03image1.png)
 
 Do this next part on paper first, then copy it into PyCharm to see how
 you went.  
@@ -314,7 +314,10 @@ principle](https://en.wikipedia.org/wiki/Abstraction_principle_(programming)),
     **`enumerate()`** function. You don't have to do it this way, but if
     you want to, it's like this:  
       
-    `for i, guitar in enumerate(guitars):`
+    ```python
+    for i, guitar in enumerate(guitars):
+        # do something with i (the index) and guitar (the element)
+    ```
 
     So `enumerate()` must return what type? A *tuple*!
 
@@ -428,12 +431,13 @@ following...
     ages).
 
 ![GitHub logo](../images/03image2.png)  
-Try using the **command line** for Git.   
-It's a valuable skill. On the lab computers, you should be
-able to use "Git Bash". Right-click on the folder where your files are
-and select "Git Bash here". On a Mac, just use Terminal.  
-A great place to learn git commands is:
-[https://try.github.io](https://try.github.io)
+## Try using the command line for Git   
+
+It's a valuable skill! On the lab computers, you should be
+able to use **"Git Bash"**. Right-click on the folder where your files are
+and select "Git Bash here". On a Mac, just use **Terminal**.  
+A great place to learn git commands is safely in your browser at:
+[try.github.io](https://try.github.io)
 
 **Why?** Here's a quote from one of our students who completed this
 subject:  
@@ -447,3 +451,9 @@ The more you have to do by yourself, the more you will really understand
 what's happening. Some things (like removing a file from the index)
 cannot be done with the IDE integration. So, as soon as you are happy to,
 start getting used to using git from a console.
+
+So, create a new repo with `git init`, add some code, add files with `git add`, 
+commit with `git commit`...
+
+Then, next time you're ready to commit and push your practical work, 
+try using the command line to do it!
