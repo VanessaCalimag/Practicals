@@ -3,10 +3,10 @@ BoxLayout:
     BoxLayout:
         orientation: 'horizontal'
         TextInput:
-            id:
-            text:
-            font_size:
-            on_text:
+            id: input_number
+            text: ' '
+            font_size: 32
+            on_text: app.calculate_mi_to_km(float(input_number.text))
         BoxLayout:
             orientation: 'vertical'
             Button:
@@ -15,8 +15,9 @@ BoxLayout:
                 text: 'Down'
     Button:
         text: 'Convert mi to km'
+        font_size: 24
     Label:
-        id:
-        text: ''
-        font_size:
-        color:
+        id: output_label
+        text: ' '
+        font_size: 32
+        color: (1, 1, 0, 1)
