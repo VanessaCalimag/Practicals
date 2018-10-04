@@ -16,6 +16,7 @@ BoxLayout:
     Button:
         text: 'Convert mi to km'
         font_size: 24
+        on_press: app.calculate_mi_to_km(float(input_number.text))
     Label:
         id: output_label
         text: ' '
